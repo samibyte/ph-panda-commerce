@@ -69,6 +69,27 @@ body {
   text-decoration: none;
   color: #707070;
 }
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  background: white;
+  padding: 5px 20px;
+  border-radius: 10px;
+  box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3), 3px 0 10px rgba(0, 0, 0, 0.3),
+    0 3px 10px rgba(0, 0, 0, 0.3);
+}
+.dropdown:hover .dropdown-menu {
+  visibility: visible;
+  top: 25px;
+  transition: 0.5s;
+}
+.dropdown-link:hover {
+  color: black;
+}
 
 /* banner styles */
 .banner {
