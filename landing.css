@@ -218,3 +218,46 @@ body {
 .pd-img {
   width: 100%;
 }
+
+.newsletter-section {
+  background-color: white;
+  padding: 70px 120px;
+}
+.newsletter {
+  background-color: #fff2f1;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 150px 250px;
+}
+.newsletter-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.newsletter-subtitle {
+  color: #707070;
+  margin-bottom: 16px;
+}
+.email-field {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.btn-email {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 18px 36px;
+  border-radius: 0 8px 8px 0;
+}
+.email-input {
+  color: #cccccc;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 18px 36px;
+  border: none;
+}
+.email-input:focus {
+  outline: none;
+}
